@@ -5,6 +5,11 @@ Get info from url with Axios
 npm install --save-dev ts-node typescript
 npm install axios
 ```
+## Config package.json
+In the script section add/update this:
+```js
+"start": "ts-node index.ts"
+```
 
 ## Start application
 ```console
